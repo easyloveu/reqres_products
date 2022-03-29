@@ -12,7 +12,8 @@ http localhost:8082/deliveries
 
 
 3. 부하 툴을 사용하여 주문 생성
-siege -c2 -t10S  -v --content-type "application/json" 'http://localhost:8081/orders POST {"productId":2, "quantity":1}'
+siege -c2 -t10S  -v --content-type "application/json" 'http://localhost:8081/orders POST {"productId":2, "quantity":1}
+
 <부하 전>
 ![image](https://user-images.githubusercontent.com/102270635/160507930-4c679192-cbf2-419b-a275-30496384bcd1.png)
 
